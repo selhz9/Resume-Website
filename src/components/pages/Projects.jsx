@@ -52,7 +52,7 @@ const Project = () => {
         <i className="fas fa-briefcase fa-3x"></i>
         <h3>React Portfolio</h3>
         <p>This is a portfolio application that allows users to display their work for employers.</p>
-        <a href="https://project6link.com">GitHub Repo </a>
+        <a href="https://github.com/selhz9/Module-12">GitHub Repo </a>
         <a>|</a>
         <a href="https://statuesque-maamoul-ac7ee9.netlify.app/"> Deployed Link</a>
     </div>
