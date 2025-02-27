@@ -1,0 +1,205 @@
+/* General Body */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4; /* Light neutral background */
+  color: #333; /* Dark gray text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #5e503f; /* Earthy brown */
+  color: white;
+}
+
+/* Nav Bar */
+.nav-title {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* About Me */
+#about-me {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f4f1; /* Light beige background */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.about-me-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Projects */
+.project-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Adds hover effect */
+}
+
+.project-card i {
+  color: #4CAF50; /* Earthy green icons */
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  color: #5e503f;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.project-card a:hover {
+  color: #4CAF50;
+}
+
+/* Resume */
+#resume {
+  padding: 2rem 0;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+.resume-download-link {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.resume-download-link:hover {
+  background-color: #45a049;
+}
+
+/* Contact Form */
+#contact {
+  padding: 2rem 0;
+  background-color: #f8f4f1; /* Light beige background */
+  border-radius: 8px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem;
+}
+
+#contact input,
+#contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+#contact button {
+  background-color: #5e503f; /* Earthy brown */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+#contact button:hover {
+  background-color: #4CAF50; /* Green on hover */
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #5e503f; /* Earthy brown */
+  color: white;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-text {
+  margin-top: 10px;
+  font-size: 12px;
+}
